@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Works</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>/YURI</h1>
+
+        <nav>
+            <ul class="nav">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="works.html">Works</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </nav>
+
+        <button class="btn btn-outline-success">Contact Me</button>
+
+    </header>
+
+    <main>
+
+        <div class="first">
+            <p>Facebook<span class="price">CEO</span><br />
+                <small>Short-rib burger with dry aged cheddar cheese, applewood-smoked bacon, secret sauce, onions,
+                    lettuce, and tomato. Served with fries/salad and a fountain drink on us! </small>
+            </p>
+        </div>
+
+        <div class="second">
+            <p>LinkedIn<span class="price">Data Analyst</span><br />
+                <small>Eggs your way. Bacon and/or sausage. Toast. (sourdough, whole wheat, rye, white). Seasonal
+                    veggies. What more could you ask for?</small>
+            </p>
+        </div>
+
+        <div class="dessert">
+            <p>Google<span class="price">Machine Learning</span><br />
+                <small>Our world-famous cornmeal pancakes stacked high. Served with fresh fruit and house-made
+                    infused maple syrup. MMMMM... Who's hungry?</small>
+            </p>
+        </div>
+
+    </main>
+
+    <footer>
+        <nav>
+
+        </nav>
+    </footer>
+
+    <script>
+        $('div').on('click', function () {
+            $(this).toggleClass('show-description');
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,251 @@
+body{
+    background-color:ivory;
+    font-family: "Merriweather", sans-serif;
+    color: darkgreen;
+}
+
+header{
+    display: flex;
+    padding: 60px 100px 40px 100px;
+}
+
+nav {
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+}
+
+.nav{
+    padding: 10px;
+}
+
+li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    margin: 0 20px;
+    font-size: medium;
+  }
+
+a {
+    color: darkgreen;
+    transition: color 0.2s, transform 0.2s;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    display: flex;
+}
+
+a:hover{
+    color: darkgreen;
+    transform: translateY(-0.35em);
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+h2 {
+    color: darkgreen;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+    font-style: italic;
+}
+
+img.myPhoto {
+    width: 270px;
+    border: 8px solid darkgreen;
+    border-radius: 50%;
+    margin: 0 0px;
+    }
+
+.btn-outline-success {
+    font-size: 20px;
+    color: darkgreen;
+    border: 2px solid darkgreen;
+    font-family: "Raleway";
+}
+
+.btn-outline-success:hover {
+    background-color: darkgreen;
+}
+
+.dinner {
+    background-image: url("menu.png");
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    width: 63%;
+    resize: both;
+    height: 1300px;
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+    border: 3px solid darkgreen;
+    border-radius: 1%;
+}
+
+h3 {
+    font-family: "Lobster", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin: 30px auto;
+    color: darkgoldenrod;
+}
+
+
+
+.title {
+    font-size: 70px;
+    text-decoration: underline;
+    color: darkgreen;
+    margin: 100px auto 20px auto;
+}
+
+.face {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.cutlery {
+    width: 250px;
+}
+
+.spoons {
+    width: 250px;
+}
+
+.langs{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+}
+
+.lang{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    line-height: 2.5em;
+    font-family: "Raleway";
+}
+
+.starters {
+    margin-top: 20px;
+}
+
+.dessert {
+    margin-bottom: 20px;
+}
+
+.html{
+    width: 70px;
+    margin-left: 50px;
+}
+
+.css{
+    width: 70px;
+    margin-right: 60px;
+}
+
+.gg {
+    width: 25%;
+    margin-left: 50px;
+}
+
+.resume {
+    width: 90%;
+    display: flex;
+   margin: 50px auto auto auto;
+    justify-content: center;
+}
+
+.res{
+    font-family: "Lobster";
+    font-size: 50px;
+    color: darkgreen;
+    margin-top: 80px;
+}
+
+p {
+    color: rgba(255,255,255,1);
+    background: black;
+    background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+    padding: 10px;
+    line-height: 28px;
+    text-align: justify;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    height: 30px;
+    transition: height .5s;
+  }
+  
+  .show-description p {
+    height: 150px;
+  }
+  
+  .show-description small {
+    opacity: 1;
+  }
+  
+  .first{
+    background-image: url("fb.png");
+    background-position: center bottom;
+    height: 200px;
+    background-size: cover;
+    position: relative;
+    margin: 40px 0 0 0;
+    border-radius: 12px;
+ 
+  }
+  .second{
+    background-image: url("linkedin.png");
+    background-position: center 90%;
+    height: 200px;
+    background-size: cover;
+    position: relative;
+    margin: 40px 0 0 0;
+    border-radius: 12px;
+ 
+  }
+  .dessert{
+    background-image: url("google.jfif");
+    background-position: center;
+    height: 200px;
+    background-size: cover;
+    position: relative;
+    margin: 40px 0 0 0;
+    border-radius: 12px;
+
+  }
+  .price {
+    float: right;
+  }
+@media (max-width: 1250px){
+    header{
+        padding: 20px 50px 20px 50px;
+    }
+}
+
+@media (max-width: 1010px){
+    li{
+        margin: 0px 5px;
+    }
+}
+
+@media (max-width: 786px){
+    li{
+        flex-wrap: nowrap;
+    }
+
+    .btn-outline-success{
+        height: 56px;
+        width: 139px;
+        line-height: 1;
+    }
+}
