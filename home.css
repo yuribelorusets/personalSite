@@ -32,7 +32,7 @@ li {
 a {
     color: darkgreen;
     transition: color 0.2s, transform 0.2s;
-    font-size: 20px;
+    font-size: 30px;
     font-family: "Raleway", sans-serif;
     display: flex;
 }
@@ -171,9 +171,15 @@ h3 {
     margin-top: 80px;
 }
 
+.works{
+    margin: 0 auto;
+    width: 600px;
+}
+
 p {
     color: rgba(255,255,255,1);
-    background: black;
+    font-family: "Raleway";
+    background: rgba(0, 0, 0, 0.555);
     background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
     padding: 10px;
     line-height: 28px;
@@ -181,6 +187,7 @@ p {
     position: absolute;
     bottom: 0;
     margin: 0;
+    padding-top: 5px;
     height: 30px;
     transition: height .5s;
   }
@@ -192,6 +199,11 @@ p {
   .show-description small {
     opacity: 1;
   }
+
+  .small {
+      opacity: 0;
+      
+  }
   
   .first{
     background-image: url("fb.png");
@@ -201,6 +213,7 @@ p {
     position: relative;
     margin: 40px 0 0 0;
     border-radius: 12px;
+    max-width: 600px;
  
   }
   .second{
@@ -211,6 +224,7 @@ p {
     position: relative;
     margin: 40px 0 0 0;
     border-radius: 12px;
+    max-width: 600px;
  
   }
   .third{
@@ -221,11 +235,21 @@ p {
     position: relative;
     margin: 40px 0 0 0;
     border-radius: 12px;
+    max-width: 600px;
 
   }
   .price {
     float: right;
   }
+
+h4{
+    margin: 100px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
 @media (max-width: 1250px){
     header{
         padding: 20px 50px 20px 50px;
@@ -247,5 +271,41 @@ p {
         height: 56px;
         width: 139px;
         line-height: 1;
+    }
+
+    .html{
+        margin-left: 10px;
+    }
+
+    .css{
+        margin-right: 10px;
+    }
+
+    .lang{
+        font-size: 20px;
+    }
+
+    .langs{
+        padding: 0;
+    }
+}
+
+@media (max-width: 657px){
+    .cutlery{
+        display: none;
+    }
+
+    .spoons{
+        display: none;
+    }
+
+    .works{
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 300px){
+    .res{
+        font-size: 30px;
     }
 }
