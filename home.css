@@ -101,7 +101,7 @@ h3 {
     font-size: 70px;
     text-decoration: underline;
     color: darkgreen;
-    margin: 100px auto 20px auto;
+    margin: 10px auto 20px auto;
 }
 
 .face {
@@ -207,8 +207,8 @@ p {
   }
   
   .first{
-    background-image: url("fb.png");
-    background-position: center bottom;
+    background-image: url("foqal.png");
+    background-position: center;
     height: 200px;
     background-size: cover;
     position: relative;
@@ -218,8 +218,8 @@ p {
  
   }
   .second{
-    background-image: url("linkedin.png");
-    background-position: center 90%;
+    background-image: url("airbnb.png");
+    background-position: center;
     height: 200px;
     background-size: cover;
     position: relative;
@@ -229,7 +229,7 @@ p {
  
   }
   .third{
-    background-image: url("google.jfif");
+    background-image: url("jobly.png");
     background-position: center;
     height: 200px;
     background-size: cover;
