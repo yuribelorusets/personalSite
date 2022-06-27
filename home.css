@@ -29,7 +29,15 @@ li {
     font-size: medium;
   }
 
-a {
+/* a {
+    color: darkgreen;
+    transition: color 0.2s, transform 0.2s;
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+    display: flex;
+} */
+
+.navLinks {
     color: darkgreen;
     transition: color 0.2s, transform 0.2s;
     font-size: 30px;
@@ -37,7 +45,7 @@ a {
     display: flex;
 }
 
-a:hover{
+.navLinks:hover{
     color: darkgreen;
     transform: translateY(-0.35em);
     cursor: pointer;
@@ -201,8 +209,8 @@ p {
     opacity: 1;
   }
 
-  .small {
-      opacity: 0;
+  small {
+    opacity: 0;
       
   }
   
